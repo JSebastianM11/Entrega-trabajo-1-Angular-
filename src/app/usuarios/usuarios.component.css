@@ -1,0 +1,37 @@
+:host {
+  display: block;
+  padding: 10px;
+  max-width: 500px; 
+  margin: 0 auto; 
+}
+
+.card {
+  border-radius: 10px;
+  background-color: #f0f8ff; 
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); 
+}
+
+.card-header {
+  background-color: #6ac1f7;
+  color: white; 
+  padding: 10px; 
+  border-radius: 10px 10px 0 0;
+}
+
+.card-body {
+  padding: 20px; 
+  font-size: 16px; 
+}
+
+.btn-primary {
+  background-color: #87cefa; 
+  border: none;
+  padding: 8px 16px; 
+  border-radius: 5px; 
+  cursor: pointer;
+  transition: background-color 0.3s ease; 
+}
+
+.btn-primary:hover {
+  background-color: #00bfff; 
+}
